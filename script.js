@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Carvão",
-                afirmacao: "afirmação"
+                afirmacao: ""
             },
             {
                 texto: "Energia eólica",
-                afirmacao: "afirmação"
+                afirmacao: ""
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Desmatamento.",
-                afirmacao: "afirmação"
+                afirmacao: ""
             },
             {
                 texto: "Criação de áreas protegidas.",
-                afirmacao: "afirmação"
+                afirmacao: ""
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Desperdício de água.",
-                afirmacao: "afirmação"
+                afirmacao: ""
             },
             {
                 texto: "Reuso de água.",
-                afirmacao: "afirmação"
+                afirmacao: ""
             }
         ]
     },
@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Plásticos.",
-                afirmacao: "afirmação"
+                afirmacao: ""
             },
             {
                 texto: "Metais pesados.",
-                afirmacao: "afirmação"
+                afirmacao: ""
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Petróleo.",
-                afirmacao: "afirmação"
+                afirmacao: ""
             },
             {
                 texto: "Gás natural.",
-                afirmacao: "afirmação"
+                afirmacao: ""
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Muito Obrigado pela atenção!...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
